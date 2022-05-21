@@ -4,10 +4,10 @@ This project is about importing, cleaning and exploring the PPP(Paycheck Protect
 According to aarp organization, as part of the CARES Act signed into law in late March, the government set aside $349 billion for what the legislation calls the Paycheck Protection Program (PPP) that is run by the Small Business Administration (SBA), with an additional $310 billion added in late April.
 
 So, we are going to import, clean and analyze this data in order to find insights from it.
-First step is to import the data from the website. Data used in this project is SBA's open data downloaded from SBA's website. There are 13 public CSV data files that hold information about loans and 1 file that is data dictionary which explains the column names/ terms used in PPP files. Then there is data file about Sectors and their respective sector codes.
+First step is to import the data from the website. Data used in this project is SBA's open data downloaded from SBA's website. There are 13 public CSV data files that hold information about loans and 1 file that is data dictionary (Meta Data) which explains the column names/ terms used in PPP files. Then there is data file that lists small business size standards matched to industries described in the North American Industry Classification System (NAICS).
 Here's the link to download the data
-https://data.sba.gov/dataset/ppp-foia
-https://www.sba.gov/document/support-table-size-standards
+Public Data: https://data.sba.gov/dataset/ppp-foia
+NAICS data: https://www.sba.gov/document/support-table-size-standards
 
 After downloading and importing the files into database using SSIS. Next step is to clean the files to make the format uniform and accessible and adding important data that is missing or not mentioned.
 
