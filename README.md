@@ -6,6 +6,7 @@ According to aarp organization, as part of the CARES Act signed into law in late
 So, we are going to import, clean and analyze this data in order to find insights from it.
 First step is to import the data from the website. Data used in this project is SBA's open data downloaded from SBA's website. There are 13 public CSV data files that hold information about loans and 1 file that is data dictionary (Meta Data) which explains the column names/ terms used in PPP files. Then there is data file that lists small business size standards matched to industries described in the North American Industry Classification System (NAICS).
 Here's the link to download the data
+
 Public Data: https://data.sba.gov/dataset/ppp-foia
 NAICS data: https://www.sba.gov/document/support-table-size-standards
 
