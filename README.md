@@ -38,6 +38,6 @@ Now, we implement step number 4, importing the cleaned data in Tableau to create
 After it we have created a View, ppp_main, in which we joined the publicdata table with sector info table.
 Now, next thing we are going to do is to do the opposite of what we did initially in this project, we imported data from CSV to database using SSIS tool, Now we are gonna export the data from database to text files using the same tool SSIS.
 Now we'll start working on Tableau worksheets.
-We created charts and tables based on the questions we answered in EDA using SQL phase. Here's the final Report.
+We created charts and tables based on the questions we answered in EDA using SQL phase. Here's the screen shot of final Report.
 ![PPP Summery Dashboard](https://user-images.githubusercontent.com/87570174/171105799-44e85980-ff07-4116-9428-43ccda53007f.png)
 
