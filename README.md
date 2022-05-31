@@ -1,4 +1,7 @@
 # SBA-DATA-Analysis
+![PPP Summery Dashboard](https://user-images.githubusercontent.com/87570174/171109292-2dfe1dee-761e-4f27-840b-9165023df6e1.png)
+link to dashboard: https://public.tableau.com/app/profile/saniya.khan4884/viz/SBADataVisualization/PPPSummeryDashboard
+
 This project is about importing, cleaning and exploring the PPP(Paycheck Protection Program) data provided by SBA.
 - What is PPP?
 According to aarp organization, as part of the CARES Act signed into law in late March, the government set aside $349 billion for what the legislation calls the Paycheck Protection Program (PPP) that is run by the Small Business Administration (SBA), with an additional $310 billion added in late April.
@@ -38,6 +41,4 @@ Now, we implement step number 4, importing the cleaned data in Tableau to create
 After it we have created a View, ppp_main, in which we joined the publicdata table with sector info table.
 Now, next thing we are going to do is to do the opposite of what we did initially in this project, we imported data from CSV to database using SSIS tool, Now we are gonna export the data from database to text files using the same tool SSIS.
 Now we'll start working on Tableau worksheets.
-We created charts and tables based on the questions we answered in EDA using SQL phase. Here's the screen shot of final Report.
-![PPP Summery Dashboard](https://user-images.githubusercontent.com/87570174/171105799-44e85980-ff07-4116-9428-43ccda53007f.png)
-
+We created charts and tables based on the questions we answered in EDA using SQL phase. Here's the link to Dashboard: https://public.tableau.com/app/profile/saniya.khan4884/viz/SBADataVisualization/PPPSummeryDashboard
